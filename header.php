@@ -61,7 +61,7 @@
         <div class="overlay"></div>
         <div class="content text-center" style="background-image: url(<?php 
             if(!kratos_option('top_img')){
-                $img = ASSET_PATH . '/assets/img/BILIBILI-background';
+                $img = ASSET_PATH . '/assets/img/BILIBILI-background.jpg';
             } else {
                 $img = kratos_option('top_img', ASSET_PATH . '/assets/img/background.png');
             }

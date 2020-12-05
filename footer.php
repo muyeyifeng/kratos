@@ -45,7 +45,7 @@
                     $sitename = get_bloginfo('name');
                     $img = ASSET_PATH . '/assets/img/police-ico.png';
                     echo '<p>' . kratos_option('s_copyright', 'COPYRIGHT © 2020 ' . $sitename . '. ALL RIGHTS RESERVED.') . '</p>';
-                    echo '<p><img src="'.$img." ><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802023745" target="_blank" rel="nofollow">京公网安备 11010802023745号</a> 京ICP备17013053号</p>';
+                    echo '<p><img src="' . $img . '" ><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802023745" target="_blank" rel="nofollow">京公网安备 11010802023745号</a> 京ICP备17013053号</p>';
                 ?>
             </div>
         </div>
