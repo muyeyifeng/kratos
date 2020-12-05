@@ -61,7 +61,7 @@
         <div class="overlay"></div>
         <div class="content text-center" style="background-image: url(<?php 
             if(!kratos_option('top_img')){
-                $img = ASSET_PATH . '/assets/img/background.png';
+                $img = ASSET_PATH . '/assets/img/BILIBILI-background';
             } else {
                 $img = kratos_option('top_img', ASSET_PATH . '/assets/img/background.png');
             }
@@ -72,8 +72,8 @@
                         echo '<div class="title">' . single_cat_title('', false) . '</div>';
                         echo '<div class="mate">' . strip_tags(category_description()) . '</div>';
                     } else {
-                        echo '<div class="title">' . kratos_option('top_title', 'Kratos') . '</div>';
-                        echo '<div class="mate">' . kratos_option('top_describe', __('一款专注于用户阅读体验的响应式博客主题', 'kratos')) . '</div>';
+                        echo '<div class="title">' . kratos_option('top_title', '木枫社') . '</div>';
+                        echo '<div class="mate">' . kratos_option('top_describe', __('一个随性的blog', '木枫社')) . '</div>';
                     }
                 ?>
             </div>
