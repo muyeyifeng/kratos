@@ -61,9 +61,9 @@
         <div class="overlay"></div>
         <div class="content text-center" style="background-image: url(<?php 
             if(!kratos_option('top_img')){
-                $img = ASSET_PATH . '/assets/img/BILIBILI-background.jpg';
+                $img = ASSET_PATH . '/assets/img/background.jpg';
             } else {
-                $img = kratos_option('top_img', ASSET_PATH . '/assets/img/background.png');
+                $img = kratos_option('top_img', ASSET_PATH . '/assets/img/background.jpg');
             }
             echo $img; ?>);">
             <div class="introduce animated fadeInUp">
