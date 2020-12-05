@@ -80,4 +80,12 @@
         </div>
     </div>
     <?php } ?>
+    <?php 
+        if(is_user_logged_in()){
+           echo '<script type="text/javascript">';
+           echo 'document.getElementById("登录").style.display="none"';
+           echo 'document.getElementById("注册").style.display="none"';
+           echo '</script>';
+        }
+    ?>
 </div>
