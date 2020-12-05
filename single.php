@@ -132,7 +132,6 @@ $select_col = $col_array[kratos_option('g_article_widgets', 'two_side')];
                         </div>
                     </div>
                 <?php endif; ?>
-                <?php require get_template_directory() . '/pages/page-toolbar.php'; ?>
                 <nav class="navigation post-navigation clearfix" role="navigation">
                     <?php
                     $prev_post = get_previous_post(TRUE);
